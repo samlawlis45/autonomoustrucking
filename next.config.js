@@ -2,7 +2,6 @@
 const nextConfig = {
   // Enable static optimization
   output: 'export',
-  trailingSlash: true,
   
   // Image optimization
   images: {
