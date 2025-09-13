@@ -1019,7 +1019,7 @@ export default function Home() {
               Limited acquisition window. Speaking with strategic buyers before broader market listing.
             </p>
             <div className="cta-actions">
-              <a href="mailto:ip@anchortrust.co?subject=Portfolio Acquisition" className="btn btn-primary">Request Portfolio Details</a>
+              <a href="mailto:ip@anchortrust.co?subject=Autonomous trucking portfolio acquisition" className="btn btn-primary">Request Portfolio Details</a>
               <a href="mailto:ip@anchortrust.co" className="btn btn-secondary">Schedule Discussion</a>
             </div>
           </div>
