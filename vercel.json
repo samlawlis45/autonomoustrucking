@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "destination": "https://autonomoustrucking.ai",
-      "permanent": true
-    },
-    {
       "source": "https://hubtohub.ai",
       "destination": "https://autonomoustrucking.ai/hubtohub",
       "permanent": true
