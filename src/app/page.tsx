@@ -858,7 +858,7 @@ export default function Home() {
                 <span className="category-count">5 domains</span>
               </div>
               <div className="domain-list">
-                <div className="domain-item">autonomystack.ai</div>
+                <div className="domain-item" onClick={() => window.open('/autonomystack', '_blank')}>autonomystack.ai</div>
                 <div className="domain-item">fleetobservability.ai</div>
                 <div className="domain-item">fleetswarm.ai</div>
                 <div className="domain-item">remoteoperations.ai</div>
@@ -872,7 +872,7 @@ export default function Home() {
                 <span className="category-count">3 domains</span>
               </div>
               <div className="domain-list">
-                <div className="domain-item">hubtohub.ai</div>
+                <div className="domain-item" onClick={() => window.open('/hubtohub', '_blank')}>hubtohub.ai</div>
                 <div className="domain-item">autonomouslinehaul.ai</div>
                 <div className="domain-item">autonomousmiddlemile.ai</div>
               </div>
