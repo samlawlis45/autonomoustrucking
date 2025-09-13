@@ -1,0 +1,95 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "
+      https://autonomoustrucking.vercel.app/",
+      "permanent": true
+    },
+    {
+      "source": "https://hubtohub.ai",
+      "destination": "https://www.autonomoustrucking.ai/hubtohub",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomystack.ai",
+      "destination": "https://www.autonomoustrucking.ai/autonomystack",
+      "permanent": true
+    },
+    {
+      "source": "https://selfdrivingtrucks.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://driverlesstrucking.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://selfdrivingfreight.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://driverlessfreight.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomoustruck.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://fleetobservability.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://fleetswarm.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://remoteoperations.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://efficientfleets.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomouslinehaul.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomousmiddlemile.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomousasaservice.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://driverasaservice.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomousfuture.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    },
+    {
+      "source": "https://autonomoussolutions.ai",
+      "destination": "https://www.autonomoustrucking.ai",
+      "permanent": true
+    }
+  ]
+}

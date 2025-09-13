@@ -31,15 +31,16 @@ export default function PressPage() {
     }
   ];
 
-  const mediaKit = {
-    logo: "https://autonomoustrucking.ai/logo.png",
-    images: [
-      "https://autonomoustrucking.ai/og-image.png",
-      "https://autonomoustrucking.ai/twitter-image.png"
-    ],
-    contact: "ip@anchortrust.co",
-    website: "https://autonomoustrucking.ai"
-  };
+  // Media kit data available for download
+  // const mediaKit = {
+  //   logo: "https://autonomoustrucking.ai/logo.png",
+  //   images: [
+  //     "https://autonomoustrucking.ai/og-image.png",
+  //     "https://autonomoustrucking.ai/twitter-image.png"
+  //   ],
+  //   contact: "ip@anchortrust.co",
+  //   website: "https://autonomoustrucking.ai"
+  // };
 
   return (
     <>

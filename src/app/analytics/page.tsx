@@ -7,9 +7,9 @@ export default function AnalyticsPage() {
   const [analytics, setAnalytics] = useState({
     totalVisitors: 0,
     pageViews: 0,
-    topPages: [],
-    referrers: [],
-    keywords: [],
+    topPages: [] as Array<{ page: string; views: number; title: string }>,
+    referrers: [] as Array<{ source: string; visitors: number; percentage: number }>,
+    keywords: [] as Array<{ keyword: string; searches: number; position: number }>,
     conversions: 0
   });
 
@@ -324,7 +324,7 @@ export default function AnalyticsPage() {
 
           <h3>Search Performance</h3>
           <p>
-            Key terms like "autonomous trucking domains" and "hub to hub logistics" 
+            Key terms like &quot;autonomous trucking domains&quot; and &quot;hub to hub logistics&quot; 
             are ranking in the top 5 positions, driving significant organic traffic. 
             Long-tail keywords are showing strong conversion rates.
           </p>

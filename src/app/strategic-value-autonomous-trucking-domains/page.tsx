@@ -222,7 +222,7 @@ export default function StrategicValueArticle() {
           <h2>Conclusion</h2>
           
           <p>
-            Owning the autonomous trucking namespace is not just a marketing strategy—it's 
+            Owning the autonomous trucking namespace is not just a marketing strategy—it&apos;s 
             a strategic business imperative. Companies that control these domains will have 
             significant advantages in brand recognition, search visibility, and market 
             positioning as the industry matures.
