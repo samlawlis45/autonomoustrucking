@@ -762,7 +762,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="nav">
         <div className="nav-container">
-          <a href="#" className="nav-logo">AutonomousTrucking.ai</a>
+          <a href="#" className="nav-logo">autonomoustrucking.ai</a>
           <ul className="nav-menu">
             <li><a href="#portfolio" className="nav-link">Portfolio</a></li>
             <li><a href="#network" className="nav-link">Network</a></li>
@@ -774,18 +774,18 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section className="hero">
+      <section className="hero" itemScope itemType="https://schema.org/WebPage">
         <div className="container">
           <div className="hero-content">
             <div className="hero-label fade-in">Premium Domain Portfolio</div>
-            <h1 className="fade-in delay-1">Own the autonomous trucking namespace.</h1>
-            <p className="hero-description fade-in delay-2">
+            <h1 className="fade-in delay-1" itemProp="headline">Own the autonomous trucking namespace.</h1>
+            <p className="hero-description fade-in delay-2" itemProp="description">
               18 category-defining domains that control how the world discovers, discusses, and 
               transacts in the $2.5 trillion autonomous freight market.
             </p>
             <div className="hero-actions fade-in delay-3">
-              <a href="#portfolio" className="btn btn-primary">View Portfolio</a>
-              <a href="#contact" className="btn btn-secondary">Request Details</a>
+              <a href="#portfolio" className="btn btn-primary" aria-label="View the complete domain portfolio">View Portfolio</a>
+              <a href="#contact" className="btn btn-secondary" aria-label="Request detailed information about acquisition">Request Details</a>
             </div>
           </div>
         </div>
@@ -816,12 +816,12 @@ export default function Home() {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="section">
+      <section id="portfolio" className="section" itemScope itemType="https://schema.org/ItemList">
         <div className="container-wide">
           <div className="section-header">
             <div className="section-label">Domain Architecture</div>
-            <h2 className="section-title">Strategic namespace control</h2>
-            <p className="section-description">
+            <h2 className="section-title" itemProp="name">Strategic namespace control</h2>
+            <p className="section-description" itemProp="description">
               Each domain represents a critical entry point in the autonomous trucking ecosystem, 
               from core technology to operational deployment.
             </p>
