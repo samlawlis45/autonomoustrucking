@@ -2,8 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "
-      https://autonomoustrucking.vercel.app/",
+      "destination": "https://autonomoustrucking.vercel.app/",
       "permanent": true
     },
     {
