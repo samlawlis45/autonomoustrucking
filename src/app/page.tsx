@@ -1019,8 +1019,8 @@ export default function Home() {
               Limited acquisition window. Speaking with strategic buyers before broader market listing.
             </p>
             <div className="cta-actions">
-              <a href="mailto:hello@autonomoustrucking.ai?subject=Portfolio Acquisition" className="btn btn-primary">Request Portfolio Details</a>
-              <a href="mailto:hello@autonomoustrucking.ai" className="btn btn-secondary">Schedule Discussion</a>
+              <a href="mailto:ip@anchortrust.co?subject=Portfolio Acquisition" className="btn btn-primary">Request Portfolio Details</a>
+              <a href="mailto:ip@anchortrust.co" className="btn btn-secondary">Schedule Discussion</a>
             </div>
           </div>
         </div>
@@ -1031,7 +1031,7 @@ export default function Home() {
         <div className="container-wide">
           <div className="footer-content">
             <div className="footer-brand">
-              <h3>AutonomousTrucking.ai</h3>
+              <h3>autonomoustrucking.ai</h3>
               <p>Premium domain portfolio for the autonomous freight revolution.</p>
             </div>
             <div className="footer-column">
@@ -1046,7 +1046,7 @@ export default function Home() {
               <h4>Acquisition</h4>
               <ul className="footer-links">
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="mailto:hello@autonomoustrucking.ai">Email Inquiry</a></li>
+                <li><a href="mailto:ip@anchortrust.co">Email Inquiry</a></li>
                 <li><a href="#">Transfer Process</a></li>
               </ul>
             </div>
