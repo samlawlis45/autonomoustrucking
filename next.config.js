@@ -32,21 +32,21 @@ const nextConfig = {
     ];
   },
   
-  // Redirects for SEO
-  async redirects() {
-    return [
-      {
-        source: '/home',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/index',
-        destination: '/',
-        permanent: true,
-      },
-    ];
-  },
+  // Redirects for SEO - temporarily disabled to fix root domain issue
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/home',
+  //       destination: '/',
+  //       permanent: true,
+  //     },
+  //     {
+  //       source: '/index',
+  //       destination: '/',
+  //       permanent: true,
+  //     },
+  //   ];
+  // },
 };
 
 module.exports = nextConfig;
