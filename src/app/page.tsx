@@ -767,6 +767,8 @@ export default function Home() {
             <li><a href="#portfolio" className="nav-link">Portfolio</a></li>
             <li><a href="#network" className="nav-link">Network</a></li>
             <li><a href="#advantages" className="nav-link">Advantages</a></li>
+            <li><a href="/blog" className="nav-link">Insights</a></li>
+            <li><a href="/press" className="nav-link">Press</a></li>
             <li><a href="#contact" className="nav-link">Contact</a></li>
           </ul>
           <a href="#contact" className="nav-cta">Inquire</a>
