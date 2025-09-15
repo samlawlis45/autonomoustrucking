@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export const metadata = {
   title: "Contact | autonomoustrucking.ai",
@@ -12,10 +13,10 @@ export default function ContactPage() {
     <main className="min-h-screen bg-white text-slate-900">
       <div className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto w-full max-w-5xl px-6 sm:px-8 py-3 flex items-center justify-between">
-          <a href="/" className="font-semibold tracking-tight">autonomoustrucking.ai</a>
+          <Link href="/" className="font-semibold tracking-tight">autonomoustrucking.ai</Link>
           <nav className="hidden md:flex items-center gap-8 text-sm">
-            <a href="/" className="text-slate-700 hover:text-slate-900">Home</a>
-            <a href="/contact" className="text-slate-900 font-medium">Contact</a>
+            <Link href="/" className="text-slate-700 hover:text-slate-900">Home</Link>
+            <Link href="/contact" className="text-slate-900 font-medium">Contact</Link>
           </nav>
           <a href={`mailto:${CONTACT_EMAIL}`} className="hidden sm:inline-flex items-center rounded-lg bg-slate-900 text-white px-3 py-2 text-sm font-medium hover:bg-slate-800">Email</a>
         </div>
@@ -24,7 +25,7 @@ export default function ContactPage() {
       <section className="bg-white">
         <div className="mx-auto w-full max-w-5xl px-6 sm:px-8 py-12 sm:py-16">
           <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact</h1>
-          <p className="mt-3 text-slate-700 max-w-2xl">We\'re engaging a small set of strategic buyers before broader listing. Use the form below or email us directly.</p>
+          <p className="mt-3 text-slate-700 max-w-2xl">We&apos;re engaging a small set of strategic buyers before broader listing. Use the form below or email us directly.</p>
 
           <div className="mt-8 grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
