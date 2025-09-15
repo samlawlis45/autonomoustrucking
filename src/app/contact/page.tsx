@@ -10,47 +10,54 @@ export default function ContactPage() {
   const CONTACT_EMAIL = "ip@achortrust.co";
 
   return (
-    <main className="min-h-screen bg-white text-slate-900">
-      <div className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto w-full max-w-5xl px-6 sm:px-8 py-3 flex items-center justify-between">
-          <Link href="/" className="font-semibold tracking-tight">autonomoustrucking.ai</Link>
-          <nav className="hidden md:flex items-center gap-8 text-sm">
-            <Link href="/" className="text-slate-700 hover:text-slate-900">Home</Link>
-            <Link href="/contact" className="text-slate-900 font-medium">Contact</Link>
-          </nav>
-          <a href={`mailto:${CONTACT_EMAIL}`} className="hidden sm:inline-flex items-center rounded-lg bg-slate-900 text-white px-3 py-2 text-sm font-medium hover:bg-slate-800">Email</a>
+    <main>
+      {/* Site Nav (matches homepage) */}
+      <nav className="nav">
+        <div className="nav-container">
+          <Link href="/" className="nav-logo">autonomoustrucking.ai</Link>
+          <ul className="nav-menu">
+            <li><Link href="/#portfolio" className="nav-link">Portfolio</Link></li>
+            <li><Link href="/#network" className="nav-link">Network</Link></li>
+            <li><Link href="/#advantages" className="nav-link">Advantages</Link></li>
+            <li><Link href="/blog" className="nav-link">Insights</Link></li>
+            <li><Link href="/press" className="nav-link">Press</Link></li>
+            <li><Link href="/contact" className="nav-link">Contact</Link></li>
+          </ul>
+          <Link href="/contact" className="nav-cta">Inquire</Link>
         </div>
-      </div>
+      </nav>
 
-      <section className="bg-white">
-        <div className="mx-auto w-full max-w-5xl px-6 sm:px-8 py-12 sm:py-16">
-          <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Contact</h1>
-          <p className="mt-3 text-slate-700 max-w-2xl">We&apos;re engaging a small set of strategic buyers before broader listing. Use the form below or email us directly.</p>
+      {/* Contact Section styled like site sections */}
+      <section className="section section-dark" id="contact">
+        <div className="container">
+          <div className="section-header">
+            <div className="section-label">Get in touch</div>
+            <h2 className="section-title">Contact</h2>
+            <p className="section-description">We&apos;re engaging a small set of strategic buyers before broader listing.</p>
+          </div>
 
-          <div className="mt-8 grid lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2">
-              <form method="POST" className="grid grid-cols-1 gap-4" action={undefined}>
+          <div style={{display:'grid', gridTemplateColumns:'1.5fr 1fr', gap:'40px'}}>
+            <div style={{background:'var(--off-black)', border:'1px solid var(--border-gray)', padding:'32px'}}>
+              <form method="POST" action={undefined} className="grid grid-cols-1 gap-4">
                 <div className="grid sm:grid-cols-2 gap-4">
-                  <input name="name" required placeholder="Your name" className="w-full rounded-lg border border-slate-300 bg-white p-3 text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200" />
-                  <input name="company" placeholder="Company" className="w-full rounded-lg border border-slate-300 bg-white p-3 text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200" />
+                  <input name="name" required placeholder="Your name" style={{width:'100%', background:'var(--dark-gray)', color:'var(--white)', border:'1px solid var(--border-gray)', padding:'12px 14px'}} />
+                  <input name="company" placeholder="Company" style={{width:'100%', background:'var(--dark-gray)', color:'var(--white)', border:'1px solid var(--border-gray)', padding:'12px 14px'}} />
                 </div>
-                <input type="email" name="email" required placeholder="Email" className="w-full rounded-lg border border-slate-300 bg-white p-3 text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200" />
-                <textarea name="message" rows={5} placeholder="Message" className="w-full rounded-lg border border-slate-300 bg-white p-3 text-slate-900 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200" />
-                <div className="flex items-center gap-3">
-                  <button type="submit" className="rounded-lg bg-slate-900 text-white px-5 py-2.5 text-sm font-medium hover:bg-slate-800">Send</button>
-                  <a href={`mailto:${CONTACT_EMAIL}`} className="text-sm text-slate-700 hover:text-slate-900">or email us directly</a>
+                <input type="email" name="email" required placeholder="Email" style={{width:'100%', background:'var(--dark-gray)', color:'var(--white)', border:'1px solid var(--border-gray)', padding:'12px 14px'}} />
+                <textarea name="message" rows={5} placeholder="Message" style={{width:'100%', background:'var(--dark-gray)', color:'var(--white)', border:'1px solid var(--border-gray)', padding:'12px 14px'}} />
+                <div className="cta-actions" style={{justifyContent:'flex-start'}}>
+                  <button type="submit" className="btn btn-primary">Send</button>
+                  <a href={`mailto:${CONTACT_EMAIL}`} className="btn btn-secondary">or email us directly</a>
                 </div>
               </form>
-              <p className="mt-3 text-xs text-slate-500">Secure transactions via Escrow.com or Dan.com.</p>
+              <p style={{marginTop:'12px', fontSize:'12px', color:'var(--text-gray)'}}>Secure transactions via Escrow.com or Dan.com.</p>
             </div>
 
-            <aside className="rounded-xl border border-slate-200 bg-slate-50 p-5">
-              <h2 className="text-base font-medium">Direct email</h2>
-              <p className="mt-2"><a className="text-slate-900 underline" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
-              <div className="mt-6 text-sm text-slate-600">
-                <p>We typically respond within 1 business day.</p>
-              </div>
-            </aside>
+            <div style={{background:'var(--black)', border:'1px solid var(--border-gray)', padding:'32px'}}>
+              <h3 style={{fontSize:'18px', fontWeight:600, marginBottom:'8px'}}>Direct email</h3>
+              <p><a href={`mailto:${CONTACT_EMAIL}`} style={{color:'var(--white)', textDecoration:'underline'}}>{CONTACT_EMAIL}</a></p>
+              <p style={{marginTop:'16px', color:'var(--text-gray)'}}>We typically respond within 1 business day.</p>
+            </div>
           </div>
         </div>
       </section>
