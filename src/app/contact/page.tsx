@@ -38,7 +38,9 @@ export default function ContactPage() {
 
           <div style={{display:'grid', gridTemplateColumns:'1.5fr 1fr', gap:'40px'}}>
             <div style={{background:'var(--off-black)', border:'1px solid var(--border-gray)', padding:'32px'}}>
-              <form method="POST" action={undefined} className="grid grid-cols-1 gap-4">
+              <form method="POST" action={process.env.NEXT_PUBLIC_FORM_ENDPOINT || undefined} className="grid grid-cols-1 gap-4">
+                <input type="hidden" name="_subject" value="AutonomousTrucking.ai contact" />
+                <input type="text" name="_gotcha" style={{display:'none'}} />
                 <div className="grid sm:grid-cols-2 gap-4">
                   <input name="name" required placeholder="Your name" style={{width:'100%', background:'var(--dark-gray)', color:'var(--white)', border:'1px solid var(--border-gray)', padding:'12px 14px'}} />
                   <input name="company" placeholder="Company" style={{width:'100%', background:'var(--dark-gray)', color:'var(--white)', border:'1px solid var(--border-gray)', padding:'12px 14px'}} />
