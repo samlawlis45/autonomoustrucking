@@ -19,8 +19,6 @@ export default function ContactPage() {
             <li><Link href="/#portfolio" className="nav-link">Portfolio</Link></li>
             <li><Link href="/#network" className="nav-link">Network</Link></li>
             <li><Link href="/#advantages" className="nav-link">Advantages</Link></li>
-            <li><Link href="/blog" className="nav-link">Insights</Link></li>
-            <li><Link href="/press" className="nav-link">Press</Link></li>
             <li><Link href="/contact" className="nav-link">Contact</Link></li>
           </ul>
           <Link href="/contact" className="nav-cta">Inquire</Link>
@@ -58,7 +56,8 @@ export default function ContactPage() {
             <div style={{background:'var(--black)', border:'1px solid var(--border-gray)', padding:'32px'}}>
               <h3 style={{fontSize:'18px', fontWeight:600, marginBottom:'8px'}}>Direct email</h3>
               <p><a href={`mailto:${CONTACT_EMAIL}`} style={{color:'var(--white)', textDecoration:'underline'}}>{CONTACT_EMAIL}</a></p>
-              <p style={{marginTop:'16px', color:'var(--text-gray)'}}>We typically respond within 1 business day.</p>
+              <p style={{marginTop:'16px', color:'var(--white)', fontWeight:600}}>Transaction supported through AnchorTrust Holdings, LLC</p>
+              <p style={{marginTop:'8px', color:'var(--white)'}}>We typically respond within 1 business day.</p>
             </div>
           </div>
         </div>
