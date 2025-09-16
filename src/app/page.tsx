@@ -417,7 +417,7 @@ export default function Home() {
           background: var(--dark-gray);
           font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
           font-size: 14px;
-          color: var(--text-gray);
+          color: var(--white);
           transition: all 0.2s ease;
           cursor: pointer;
           position: relative;
@@ -550,7 +550,7 @@ export default function Home() {
         }
 
         .feature-number {
-          font-size: 14px;
+          font-size: 18px;
           font-weight: 600;
           color: var(--accent);
           margin-bottom: 24px;

@@ -50,7 +50,7 @@ export default function ContactPage() {
                   <a href={`mailto:${CONTACT_EMAIL}`} className="btn btn-secondary">or email us directly</a>
                 </div>
               </form>
-              <p style={{marginTop:'12px', fontSize:'12px', color:'var(--text-gray)'}}>Secure transactions via Escrow.com or Dan.com.</p>
+              <p style={{marginTop:'12px', fontSize:'12px', color:'var(--white)'}}>Secure transactions via Escrow.com.</p>
             </div>
 
             <div style={{background:'var(--black)', border:'1px solid var(--border-gray)', padding:'32px'}}>
