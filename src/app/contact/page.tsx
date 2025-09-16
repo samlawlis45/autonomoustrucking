@@ -1,16 +1,208 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
-
-export const metadata = {
-  title: "Contact | autonomoustrucking.ai",
-  description: "Get in touch about the autonomous trucking domain portfolio.",
-};
 
 export default function ContactPage() {
   const CONTACT_EMAIL = "ip@achortrust.co";
 
   return (
-    <main>
+    <>
+      <style jsx global>{`
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        :root {
+          --black: #000000;
+          --off-black: #0A0A0A;
+          --dark-gray: #1A1A1A;
+          --medium-gray: #2A2A2A;
+          --light-gray: #6B6B6B;
+          --text-gray: #9B9B9B;
+          --border-gray: #2A2A2A;
+          --white: #FFFFFF;
+          --accent: #FF4B1F;
+          --accent-hover: #FF6B3F;
+        }
+
+        body {
+          font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+          background: var(--black);
+          color: var(--white);
+          line-height: 1.6;
+          overflow-x: hidden;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 24px;
+          position: relative;
+          z-index: 2;
+        }
+
+        .nav {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.9);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border-bottom: 1px solid var(--border-gray);
+          z-index: 1000;
+          transition: all 0.3s ease;
+        }
+
+        .nav-container {
+          max-width: 1400px;
+          margin: 0 auto;
+          padding: 0 24px;
+          height: 72px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .nav-logo {
+          font-size: 18px;
+          font-weight: 600;
+          letter-spacing: -0.5px;
+          text-decoration: none;
+          color: var(--white);
+          transition: opacity 0.2s ease;
+        }
+
+        .nav-logo:hover {
+          opacity: 0.8;
+        }
+
+        .nav-menu {
+          display: flex;
+          align-items: center;
+          gap: 48px;
+          list-style: none;
+        }
+
+        .nav-link {
+          color: var(--white);
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.2px;
+          transition: color 0.2s ease;
+        }
+
+        .nav-link:hover {
+          color: var(--white);
+        }
+
+        .nav-cta {
+          padding: 10px 24px;
+          background: var(--white);
+          color: var(--black);
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.2px;
+          border: 1px solid var(--white);
+          transition: all 0.2s ease;
+        }
+
+        .nav-cta:hover {
+          background: transparent;
+          color: var(--white);
+        }
+
+        .section {
+          padding: 120px 0;
+          position: relative;
+        }
+
+        .section-dark {
+          background: var(--off-black);
+        }
+
+        .section-header {
+          margin-bottom: 80px;
+        }
+
+        .section-label {
+          display: inline-block;
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          color: var(--white);
+          margin-bottom: 24px;
+        }
+
+        .section-title {
+          font-size: clamp(36px, 5vw, 56px);
+          font-weight: 700;
+          line-height: 1.1;
+          letter-spacing: -2px;
+          margin-bottom: 24px;
+        }
+
+        .section-description {
+          font-size: 18px;
+          color: var(--white);
+          max-width: 600px;
+        }
+
+        .btn {
+          padding: 14px 32px;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          text-decoration: none;
+          display: inline-block;
+          transition: all 0.2s ease;
+          cursor: pointer;
+          border: 1px solid;
+        }
+
+        .btn-primary {
+          background: var(--white);
+          color: var(--black);
+          border-color: var(--white);
+        }
+
+        .btn-primary:hover {
+          background: transparent;
+          color: var(--white);
+        }
+
+        .btn-secondary {
+          background: transparent;
+          color: var(--white);
+          border-color: var(--border-gray);
+        }
+
+        .btn-secondary:hover {
+          border-color: var(--white);
+          background: var(--dark-gray);
+        }
+
+        .cta-actions {
+          display: flex;
+          gap: 16px;
+          flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+          .nav-menu {
+            display: none;
+          }
+        }
+      `}</style>
+      <main>
       {/* Site Nav (matches homepage) */}
       <nav className="nav">
         <div className="nav-container">
@@ -63,6 +255,7 @@ export default function ContactPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }
 
