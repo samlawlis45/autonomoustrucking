@@ -189,7 +189,7 @@ export default function Home() {
         }
 
         .nav-link {
-          color: var(--text-gray);
+          color: var(--white);
           text-decoration: none;
           font-size: 14px;
           font-weight: 500;
@@ -253,7 +253,7 @@ export default function Home() {
         .hero-description {
           font-size: 20px;
           line-height: 1.5;
-          color: var(--text-gray);
+          color: var(--white);
           max-width: 600px;
           margin-bottom: 48px;
         }
@@ -364,7 +364,7 @@ export default function Home() {
 
         .section-description {
           font-size: 18px;
-          color: var(--text-gray);
+          color: var(--white);
           max-width: 600px;
         }
 
@@ -469,7 +469,7 @@ export default function Home() {
 
         .visual-content p {
           font-size: 18px;
-          color: var(--text-gray);
+          color: var(--white);
           line-height: 1.6;
           margin-bottom: 20px;
         }
@@ -564,7 +564,7 @@ export default function Home() {
         }
 
         .feature-description {
-          color: var(--text-gray);
+          color: var(--white);
           line-height: 1.6;
         }
 
@@ -589,7 +589,7 @@ export default function Home() {
 
         .cta-description {
           font-size: 20px;
-          color: var(--text-gray);
+          color: var(--white);
           margin-bottom: 48px;
         }
 
@@ -620,7 +620,7 @@ export default function Home() {
         }
 
         .footer-brand p {
-          color: var(--text-gray);
+          color: var(--white);
           font-size: 14px;
           line-height: 1.6;
           max-width: 300px;
@@ -631,7 +631,7 @@ export default function Home() {
           font-weight: 600;
           letter-spacing: 1.5px;
           text-transform: uppercase;
-          color: var(--text-gray);
+          color: var(--white);
           margin-bottom: 24px;
         }
 
@@ -651,7 +651,7 @@ export default function Home() {
         }
 
         .footer-links a:hover {
-          color: var(--text-gray);
+          color: var(--white);
         }
 
         .footer-bottom {
@@ -666,7 +666,7 @@ export default function Home() {
 
         .footer-copyright {
           font-size: 12px;
-          color: var(--text-gray);
+          color: var(--white);
         }
 
         .footer-legal {
@@ -677,7 +677,7 @@ export default function Home() {
 
         .footer-legal a {
           font-size: 12px;
-          color: var(--text-gray);
+          color: var(--white);
           text-decoration: none;
           transition: color 0.2s ease;
         }
@@ -767,7 +767,6 @@ export default function Home() {
             <li><a href="#portfolio" className="nav-link">Portfolio</a></li>
             <li><a href="#network" className="nav-link">Network</a></li>
             <li><a href="#advantages" className="nav-link">Advantages</a></li>
-            <li><a href="/blog" className="nav-link">Insights</a></li>
             <li><a href="/contact" className="nav-link">Contact</a></li>
           </ul>
           <a href="/contact" className="nav-cta">Inquire</a>
@@ -778,14 +777,14 @@ export default function Home() {
       <section className="hero" itemScope itemType="https://schema.org/WebPage">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-label fade-in">Premium Domain Portfolio</div>
+            <div className="hero-label fade-in">Premium Brand Infrastructure Portfolio</div>
             <h1 className="fade-in delay-1" itemProp="headline">The Strategic Blueprint: A 360° Namespace Monopoly</h1>
             <p className="hero-description fade-in delay-2" itemProp="description">
               This portfolio is an interlocking system designed to control every critical conversation, from core technology to final delivery, in the autonomous trucking ecosystem.
             </p>
             <div className="hero-actions fade-in delay-3">
               <a href="#portfolio" className="btn btn-primary" aria-label="View the complete domain portfolio">View Portfolio</a>
-              <a href="mailto:ip@anchortrust.co?subject=Autonomous trucking portfolio acquisition" className="btn btn-secondary" aria-label="Request detailed information about acquisition">Request Details</a>
+              <a href="/contact" className="btn btn-secondary" aria-label="Request detailed information about acquisition">Request Details</a>
             </div>
           </div>
         </div>
@@ -796,7 +795,7 @@ export default function Home() {
         <div className="container-wide">
           <div className="stats-grid">
             <div className="stat fade-in">
-              <div className="stat-value">18</div>
+              <div className="stat-value">19</div>
               <div className="stat-label">Premium Domains</div>
             </div>
             <div className="stat fade-in delay-1">
@@ -804,8 +803,8 @@ export default function Home() {
               <div className="stat-label">Market Categories</div>
             </div>
             <div className="stat fade-in delay-2">
-              <div className="stat-value">100%</div>
-              <div className="stat-label">Namespace Control</div>
+              <div className="stat-value">98%</div>
+              <div className="stat-label">Strategic Namespace Control</div>
             </div>
             <div className="stat fade-in delay-3">
               <div className="stat-value">$2.5T</div>
@@ -1009,10 +1008,11 @@ export default function Home() {
           <div className="cta-content">
             <h2 className="cta-title">Secure your competitive advantage</h2>
             <p className="cta-description">
-              Limited acquisition window. Speaking with strategic buyers before broader market listing.
+              Limited acquisition window. Speaking with strategic buyers before broader market listing.<br/>
+              <strong>Transaction supported through AnchorTrust Holdings, LLC</strong>
             </p>
             <div className="cta-actions">
-              <a href="mailto:ip@anchortrust.co?subject=Autonomous trucking portfolio acquisition" className="btn btn-primary">Request Portfolio Details</a>
+              <a href="/contact" className="btn btn-primary">Request Portfolio Details</a>
             </div>
           </div>
         </div>
@@ -1030,7 +1030,7 @@ export default function Home() {
               <h4>Portfolio</h4>
               <ul className="footer-links">
                 <li><a href="#portfolio">View Domains</a></li>
-                <li><a href="#network">Network Map</a></li>
+                <li><a href="#network">Brand Narrative</a></li>
                 <li><a href="#advantages">Strategic Value</a></li>
               </ul>
             </div>
@@ -1038,7 +1038,6 @@ export default function Home() {
               <h4>Acquisition</h4>
               <ul className="footer-links">
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="mailto:ip@anchortrust.co">Email Inquiry</a></li>
               </ul>
             </div>
           </div>
@@ -1048,7 +1047,6 @@ export default function Home() {
             </div>
             <ul className="footer-legal">
               <li><a href="#">Escrow.com Verified</a></li>
-              <li><a href="#">Transfer Terms</a></li>
             </ul>
           </div>
         </div>
