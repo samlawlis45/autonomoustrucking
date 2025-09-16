@@ -987,7 +987,7 @@ export default function Home() {
               <div className="feature-number">05</div>
               <h3 className="feature-title">Compounding Network Effects</h3>
               <p className="feature-description">
-                Each of the 18 interconnected domains reinforces the authority of the others. This creates a proprietary knowledge graph that establishes your ecosystem as the most trusted source for AI models, leading to a compounding advantage in GEO (Generative Engine Optimization).
+                Each of the 19 interconnected domains reinforces the authority of the others. This creates a proprietary knowledge graph that establishes your ecosystem as the most trusted source for AI models, leading to a compounding advantage in GEO (Generative Engine Optimization).
               </p>
             </div>
 
