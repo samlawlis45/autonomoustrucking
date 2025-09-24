@@ -795,7 +795,7 @@ export default function Home() {
         <div className="container-wide">
           <div className="stats-grid">
             <div className="stat fade-in">
-              <div className="stat-value">19</div>
+              <div className="stat-value">20</div>
               <div className="stat-label">Premium Domains</div>
             </div>
             <div className="stat fade-in delay-1">
@@ -829,12 +829,13 @@ export default function Home() {
             <div className="portfolio-category">
               <div className="category-header">
                 <h3 className="category-title">Category Definition (The Core Identity)</h3>
-                <span className="category-count">3 domains</span>
+                <span className="category-count">4 domains</span>
               </div>
               <div className="domain-list">
                 <div className="domain-item">autonomoustrucking.ai</div>
                 <div className="domain-item">selfdrivingtrucks.ai</div>
                 <div className="domain-item">driverlesstrucking.ai</div>
+                <div className="domain-item">autonomoustrucking.network</div>
               </div>
             </div>
 
@@ -987,7 +988,7 @@ export default function Home() {
               <div className="feature-number">05</div>
               <h3 className="feature-title">Compounding Network Effects</h3>
               <p className="feature-description">
-                Each of the 19 interconnected domains reinforces the authority of the others. This creates a proprietary knowledge graph that establishes your ecosystem as the most trusted source for AI models, leading to a compounding advantage in GEO (Generative Engine Optimization).
+                Each of the 20 interconnected domains reinforces the authority of the others. This creates a proprietary knowledge graph that establishes your ecosystem as the most trusted source for AI models, leading to a compounding advantage in GEO (Generative Engine Optimization).
               </p>
             </div>
 
